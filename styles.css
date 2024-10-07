@@ -1,0 +1,121 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #480E0A; /* Fundo claro */
+    color: #ffffff; /* Texto escuro */
+}
+
+h1, h2 {
+    color: #FFE2AD; /* Cor da pizza */
+}
+
+header {
+    background-color: #0F2E1A; /* Vermelho quente */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Efeito ao passar o mouse */
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto; /* Centraliza o conteúdo */
+}
+
+section {
+    margin-bottom: 40px; /* Espaço entre seções */
+}
+
+h2 {
+    border-bottom: 2px solid #FFE2AD; /* Linha abaixo do título */
+    padding-bottom: 10px;
+}
+
+/* Estilo para o menu de pizzas */
+ul {
+    list-style-type: none; /* Remove marcadores */
+    padding: 0;
+}
+
+ul li {
+    background: #7A1600; /* Fundo branco */
+    margin: 10px 0; /* Espaçamento entre as pizzas */
+    padding: 15px;
+    border-radius: 5px; /* Cantos arredondados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo para o formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+    background: #7A1600;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #0F2E1A; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+button:hover {
+    background-color: #194D2B; /* Cor do botão ao passar o mouse */
+}
+
+/* Estilo para o rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #480E0A;
+    margin-top: 40px; /* Espaço acima do rodapé */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 600px) {
+    nav ul li }
+        display: block; /* Muda para bloco em tela
